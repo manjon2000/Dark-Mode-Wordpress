@@ -12,3 +12,34 @@
         </a>
         <!-- fin contenido Div -->
     </div>
+
+
+    <!-- Script JavaScript -->
+const btnDark = document.querySelector('.btn-active-dark');
+const btnSun = document.querySelector('.btn-active-sun');
+const body = document.body;
+const cookieBtnDark = document.cookie;
+if(cookieBtnDark.match('true')){
+   body.classList.toggle('bk-dark');
+   btnDark.classList.add('disable');
+   btnSun.classList.remove('disable');
+}
+else{
+   body.classList.remove('bk-dark');
+   btnDark.classList.remove('disable');
+   btnSun.classList.add('disable');
+}
+const insertClassDark = () =>  {
+   body.classList.add('bk-dark');
+   btnDark.classList.add('disable')
+   btnSun.classList.remove('disable')
+   document.cookie = "darkmode= true";
+};
+const insertarClassSun = () => {
+   body.classList.remove('bk-dark');
+   document.cookie = "darkmode= false";
+   btnDark.classList.remove('disable')
+   btnSun.classList.add('disable')
+}
+btnDark.addEventListener('click' , insertClassDark); 
+btnSun.addEventListener('click', insertarClassSun);
