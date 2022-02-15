@@ -1,3 +1,8 @@
+/* Trancicion de .5s para el cambio de color de fondo */
+body{
+    transition: cubic-bezier(0.55, 0.085, 0.68, 0.53) 1s;
+} 
+
 /* Cambiar colores de todos los elementos tipo texto */
 .bk-dark p,
 .bk-dark h1,
@@ -5,7 +10,7 @@
 .bk-dark h3{
     color: white !important;
 }
-/* Fondo Oscuro y tracicion de .5s para el cambio de color de fondo */
+/* Fondo Oscuro y trancicion de .5s para el cambio de color de fondo */
 .bk-dark{
     background-color: #191919 !important;
     transition: cubic-bezier(0.55, 0.085, 0.68, 0.53) .5s;
@@ -13,6 +18,11 @@
 /* Sombra al contenedor de .activate-dark-mode */
 .bk-dark > .activate-dark-mode{
     box-shadow: 0px 0px 20px #cecece5d;
+}
+/* Ocultar icono */
+.disable{
+    display: none;
+    transition: cubic-bezier(0.55, 0.085, 0.68, 0.53) .5s;
 }
 /* Estilos caja btn modo oscuro */
 .activate-dark-mode{
