@@ -8,7 +8,7 @@ body{
 .bk-dark h1,
 .bk-dark h2,
 .bk-dark h3{
-    color: white !important;
+    color: #fff !important;
 }
 /* Fondo Oscuro y trancicion de .5s para el cambio de color de fondo */
 .bk-dark{
@@ -40,5 +40,5 @@ body{
 }
 /* Estilos al icono de la caja*/
 .activate-dark-mode > a i{
-    color: white ;
+    color: #fff;
 }
