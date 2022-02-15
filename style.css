@@ -5,7 +5,7 @@
 .bk-dark h3{
     color: white !important;
 }
-/* Fondo Oscuro y tracicion de .5s para el cambio de colores */
+/* Fondo Oscuro y tracicion de .5s para el cambio de color de fondo */
 .bk-dark{
     background-color: #191919 !important;
     transition: cubic-bezier(0.55, 0.085, 0.68, 0.53) .5s;
