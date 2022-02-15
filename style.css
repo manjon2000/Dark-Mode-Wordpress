@@ -1,4 +1,4 @@
-/* Trancicion de .5s para el cambio de color de fondo */
+/* Trancicion de 1s para el cambio de color de fondo */
 body{
     transition: cubic-bezier(0.55, 0.085, 0.68, 0.53) 1s;
 } 
