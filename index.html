@@ -21,7 +21,7 @@ const btnDark = document.querySelector('.btn-active-dark');
 const btnSun = document.querySelector('.btn-active-sun');
 const body = document.body;
 const cookieBtnDark = document.cookie;
-if(cookieBtnDark.match('true')){
+if(cookieBtnDark.match('darkmode=true')){
    body.classList.toggle('bk-dark');
    btnDark.classList.add('disable');
    btnSun.classList.remove('disable');
