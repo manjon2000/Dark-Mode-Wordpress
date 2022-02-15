@@ -7,6 +7,7 @@ Creamos un bloque de html y copiamos todo lo del index.html al bloque, lo siguie
 tendriamos que hacer es copiar los estilos, detro del bloque html vamos al apartado avanzado 
 y bajamos abajo donde pone CUSTOM CSS y pegamos hay el codigo listo.
 
+//////////////////////////////////////////////////////////////////////////////////////////////
 
 All rights reserved to manjondev
 
